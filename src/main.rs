@@ -30,7 +30,7 @@ struct Character {
 impl Character {
     fn new(character_name: String) -> Self {
         let mut character = String::new();
-        File::open(format!("assets/character/{}.json", character_name))
+        File::open(format!("src/assets/character/{}.json", character_name))
             .unwrap()
             .read_to_string(&mut character)
             .unwrap();
@@ -125,7 +125,7 @@ fn mainmenu() {
 
 fn parse_json() -> Vec<Opt> {
     let mut file = String::new();
-    File::open("main_menu.json")
+    File::open("src/main_menu.json")
         .unwrap()
         .read_to_string(&mut file)
         .unwrap();
