@@ -1,0 +1,18 @@
+[
+    {
+        "key": 1,
+        "value": "New game"
+    },
+    {
+        "key": 2,
+        "value": "Load Game"
+    },
+    {
+        "key": 3,
+        "value": "Options"
+    },
+    {
+        "key": 4,
+        "value": "Quit game"
+    }
+]
